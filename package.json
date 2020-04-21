@@ -1,0 +1,25 @@
+{
+  "name": "kingspook",
+  "version": "1.0.0",
+  "description": "memorial gallery website",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=Eleventy* eleventy",
+    "deploy": "aws s3 sync _site/ s3://kingspook.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamrod/kingspook.git"
+  },
+  "author": "jamrod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamrod/kingspook/issues"
+  },
+  "homepage": "https://github.com/jamrod/kingspook#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}

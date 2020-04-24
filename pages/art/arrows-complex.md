@@ -1,6 +1,4 @@
-
-    ---
-    name: arrows-complex
-    path: 'assets/img/art/arrows-complex.jpg'
-    ---
-    
+---
+name: arrows-complex
+path: "/assets/img/art/arrows-complex.jpg"
+---

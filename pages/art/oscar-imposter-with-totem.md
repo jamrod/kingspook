@@ -1,6 +1,4 @@
-
-    ---
-    name: oscar-imposter-with-totem
-    path: 'assets/img/art/oscar-imposter-with-totem.jpg'
-    ---
-    
+---
+name: oscar-imposter-with-totem
+path: "/assets/img/art/oscar-imposter-with-totem.jpg"
+---

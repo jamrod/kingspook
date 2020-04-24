@@ -1,6 +1,4 @@
-
-    ---
-    name: sequential-people-panel
-    path: 'assets/img/art/sequential-people-panel.jpg'
-    ---
-    
+---
+name: sequential-people-panel
+path: "/assets/img/art/sequential-people-panel.jpg"
+---

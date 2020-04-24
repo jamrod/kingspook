@@ -1,6 +1,4 @@
-
-    ---
-    name: serious-sketch
-    path: 'assets/img/art/serious-sketch.jpg'
-    ---
-    
+---
+name: serious-sketch
+path: "/assets/img/art/serious-sketch.jpg"
+---

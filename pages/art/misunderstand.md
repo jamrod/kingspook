@@ -1,6 +1,4 @@
-
-    ---
-    name: misunderstand
-    path: 'assets/img/art/misunderstand.jpg'
-    ---
-    
+---
+name: misunderstand
+path: "/assets/img/art/misunderstand.jpg"
+---

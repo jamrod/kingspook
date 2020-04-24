@@ -1,6 +1,4 @@
-
-    ---
-    name: smiling-red
-    path: 'assets/img/art/smiling-red.jpg'
-    ---
-    
+---
+name: smiling-red
+path: "/assets/img/art/smiling-red.jpg"
+---

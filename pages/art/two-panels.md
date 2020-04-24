@@ -1,6 +1,4 @@
-
-    ---
-    name: two-panels
-    path: 'assets/img/art/two-panels.jpg'
-    ---
-    
+---
+name: two-panels
+path: "/assets/img/art/two-panels.jpg"
+---

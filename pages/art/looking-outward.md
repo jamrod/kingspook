@@ -1,6 +1,4 @@
-
-    ---
-    name: looking-outward
-    path: 'assets/img/art/looking-outward.jpg'
-    ---
-    
+---
+name: looking-outward
+path: "/assets/img/art/looking-outward.jpg"
+---

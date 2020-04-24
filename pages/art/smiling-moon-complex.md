@@ -1,6 +1,4 @@
-
-    ---
-    name: smiling-moon-complex
-    path: 'assets/img/art/smiling-moon-complex.jpg'
-    ---
-    
+---
+name: smiling-moon-complex
+path: "/assets/img/art/smiling-moon-complex.jpg"
+---

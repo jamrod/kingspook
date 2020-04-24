@@ -1,5 +1,5 @@
 <nav>
   {% for nav in collections.nav %}
-  <a href="{{ nav.url }}">{{ nav.title }}</a>
+  <a href="{{ nav.url }}">{{ nav.data.title }}</a>
   {% endfor %}
 </nav>

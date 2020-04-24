@@ -1,6 +1,4 @@
-
-    ---
-    name: poster
-    path: 'assets/img/art/poster.jpg'
-    ---
-    
+---
+name: poster
+path: "/assets/img/art/poster.jpg"
+---

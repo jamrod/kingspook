@@ -1,6 +1,4 @@
-
-    ---
-    name: constrained
-    path: 'assets/img/art/constrained.jpg'
-    ---
-    
+---
+name: constrained
+path: "/assets/img/art/constrained.jpg"
+---

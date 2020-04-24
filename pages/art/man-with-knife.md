@@ -1,6 +1,4 @@
-
-    ---
-    name: man-with-knife
-    path: 'assets/img/art/man-with-knife.jpg'
-    ---
-    
+---
+name: man-with-knife
+path: "/assets/img/art/man-with-knife.jpg"
+---

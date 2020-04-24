@@ -1,3 +1,14 @@
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gallery-pic-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .gallery-pic {
   max-width: 300px;
 }

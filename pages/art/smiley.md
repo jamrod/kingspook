@@ -1,6 +1,4 @@
-
-    ---
-    name: smiley
-    path: 'assets/img/art/smiley.jpg'
-    ---
-    
+---
+name: smiley
+path: "/assets/img/art/smiley.jpg"
+---

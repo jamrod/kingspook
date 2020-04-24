@@ -1,0 +1,22 @@
+---
+layout: base.liquid
+title: Gellery
+tags: nav
+date: 2020-01-01
+url: /pages/gallery
+---
+
+<h3>Gallery</h3>
+
+{% for pic in art %}
+<div>
+  <a href="{{ pic.url }}">
+    <img
+      class="gallery-pic"
+      src="{{ pic.data.path }}"
+      alt="{{ pic.data.name }}"
+    />
+    <span>{{ pic.data.name }}</span>
+  </a>
+</div>
+{% endfor %}

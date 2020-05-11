@@ -8,28 +8,22 @@ url: /pages/gallery
 
 <h3>Gallery</h3>
 <div class="flex-container-row">
-  
-  {% for pic in collections.art %}
-  <a href="{{ pic.url }}" >
-    {% if pic.data.flag == short %}
-      <div class="gallery-pic-container-short">
-        <img
-        class="gallery-pic"
-        src="{{ pic.data.path }}"
-        alt="{{ pic.data.name }}"
-      />
-    <span class="pic-label">{{ pic.data.name }}</span>
-  </div>
-    {% else %}
-      <div class="gallery-pic-container">
-    
-      <img
-        class="gallery-pic"
-        src="{{ pic.data.path }}"
-        alt="{{ pic.data.name }}"
-      />
-    <span class="pic-label">{{ pic.data.name }}</span>
-  </div>
-  {% endif %}
-</a>
-  {% endfor %}
+    {% for pic in collections.long %}
+        <a href="{{ pic.url }}">
+            <div class="gallery-pic-container">
+                <div class="flex-container-column centered">
+                    <img class="gallery-pic" src="{{ pic.data.path }}" alt="{{ pic.data.name }}"/>
+                </div>
+                <span class="pic-label">{{ pic.data.name }}</span>
+            </div>
+        </a>
+    {% endfor %}
+    {% for pic in collections.short %}
+        <a href="{{ pic.url }}">
+            <div class="gallery-pic-container-short">
+                <div class="flex-container-column centered"><img class="gallery-pic" src="{{ pic.data.path }}" alt="{{ pic.data.name }}"/></div>
+                <span class="pic-label">{{ pic.data.name }}</span>
+            </div>
+        </a>
+    {% endfor %}
+</div>

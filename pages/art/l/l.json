@@ -1,4 +1,4 @@
 {
   "layout": "art.liquid",
-  "tags": "art"
+  "tags": ["art", "long"]
 }

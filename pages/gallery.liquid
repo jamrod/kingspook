@@ -10,16 +10,26 @@ url: /pages/gallery
 <div class="flex-container-row">
   
   {% for pic in collections.art %}
-  <a href="{{ pic.url }}">
-  <div class="gallery-pic-container">
+  <a href="{{ pic.url }}" >
+    {% if pic.data.flag == short %}
+      <div class="gallery-pic-container-short">
+        <img
+        class="gallery-pic"
+        src="{{ pic.data.path }}"
+        alt="{{ pic.data.name }}"
+      />
+    <span class="pic-label">{{ pic.data.name }}</span>
+  </div>
+    {% else %}
+      <div class="gallery-pic-container">
+    
       <img
         class="gallery-pic"
         src="{{ pic.data.path }}"
         alt="{{ pic.data.name }}"
       />
-    <span>{{ pic.data.name }}</span>
+    <span class="pic-label">{{ pic.data.name }}</span>
   </div>
+  {% endif %}
 </a>
   {% endfor %}
-
-</p>div 

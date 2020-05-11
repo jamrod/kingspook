@@ -6,6 +6,15 @@ header {
   text-align: center;
 }
 
+header a {
+  color: black;
+}
+
+header a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 footer {
   position: fixed;
   bottom: 0;

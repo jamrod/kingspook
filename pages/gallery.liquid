@@ -7,7 +7,8 @@ url: /pages/gallery
 ---
 
 <h3>Gallery</h3>
-<div class="flex-container-row">
+
+<div class="flex-container-row centered">
     {% for pic in collections.long %}
         <a href="{{ pic.url }}">
             <div class="gallery-pic-container">
@@ -26,4 +27,5 @@ url: /pages/gallery
             </div>
         </a>
     {% endfor %}
-</div>
+
+</p>

@@ -1,9 +1,15 @@
 body {
   background-color: #aaaaaa;
+  background-image: url("/assets/img/kingSpook-bw0-spaced.png");
 }
 
 header {
-  text-align: center;
+  background-color: #fd6969;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 header a {
@@ -13,6 +19,16 @@ header a {
 header a:hover {
   color: black;
   text-decoration: none;
+}
+
+nav {
+  background-color: #fd6969;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+main {
+  padding: 10px;
 }
 
 footer {
@@ -72,11 +88,6 @@ footer {
 }
 
 .container {
-  margin-bottom: 35px;
+  margin-bottom: 36px;
+  background-color: rgba(255, 255, 255, 0.6);
 }
-
-/* @media screen and (max-width: 600px) {
-  full-size-pic {
-    width: 300px;
-  }
-} */

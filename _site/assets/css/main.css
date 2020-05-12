@@ -74,3 +74,9 @@ footer {
 .container {
   margin-bottom: 35px;
 }
+
+/* @media screen and (max-width: 600px) {
+  full-size-pic {
+    width: 300px;
+  }
+} */

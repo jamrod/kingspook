@@ -41,6 +41,8 @@ nav a {
 
 main {
   padding: 10px;
+  margin-bottom: 36px;
+  background-color: rgba(2, 2, 2, 0.9);
 }
 
 footer {
@@ -103,9 +105,4 @@ p {
   text-align: center;
   align-self: end;
   color: white;
-}
-
-.container {
-  margin-bottom: 36px;
-  background-color: rgba(2, 2, 2, 0.9);
 }

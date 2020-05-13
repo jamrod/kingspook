@@ -1,6 +1,11 @@
 body {
   background-color: #aaaaaa;
-  background-image: url("/assets/img/kingSpook-bw0-spaced.png");
+  background-image: url("/assets/img/kingSpook-bw0-spaced.png"),
+    url("/assets/img/kingSpook-bw0-spaced.png");
+  background-position: left top, right top;
+  background-repeat: repeat-y, repeat-y;
+  font-family: "Special Elite", cursive;
+  color: white;
 }
 
 header {
@@ -22,16 +27,24 @@ header a:hover {
 }
 
 nav {
+  font-family: "McLaren", cursive;
+  letter-spacing: 1px;
   background-color: #fd6969;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   padding: 5px;
 }
+
+nav a {
+  color: white;
+}
+
 main {
   padding: 10px;
 }
 
 footer {
+  color: black;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -40,6 +53,11 @@ footer {
   padding: 1px;
   margin-top: 5px;
   background-color: #ffffff;
+}
+
+p {
+  font-family: "McLaren", cursive;
+  letter-spacing: 1px;
 }
 
 .flex-container-row {
@@ -89,5 +107,5 @@ footer {
 
 .container {
   margin-bottom: 36px;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(2, 2, 2, 0.9);
 }

@@ -1,5 +1,5 @@
 ---
-name: Record-Cover
+name: Another Stupid Tiny Compilation
 path: "/assets/img/art/Record-Cover.jpg"
 flag: short
 date: 2020-05-01

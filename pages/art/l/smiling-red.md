@@ -1,5 +1,5 @@
 ---
-name: Smiling-red
+name: One-eyed Shooter
 path: "/assets/img/art/smiling-red.jpg"
 date: 2020-05-01
 ---

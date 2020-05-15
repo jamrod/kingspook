@@ -106,3 +106,14 @@ p {
   align-self: end;
   color: white;
 }
+
+.art {
+  min-height: 300px;
+}
+
+.art-label {
+  width: 100%;
+  text-align: center;
+  align-items: flex-start;
+  padding-top: 15px;
+}

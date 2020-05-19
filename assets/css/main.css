@@ -109,6 +109,8 @@ p {
 
 .art {
   min-height: 300px;
+  padding-bottom: 15px;
+  padding-top: 5px;
 }
 
 .art-label {

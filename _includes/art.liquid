@@ -1,7 +1,9 @@
 ---
 layout: base.liquid
 ---
-
+{% assign pics = collections.art %}
+<a href="{{ collections.art[0].url }}" ">Test</a>
+<p>{{ collections.art[0].data.name }}</p>
 <div class="flex-container-column">
     <div class="art-label">
         <h3>{{ name }}</h3>

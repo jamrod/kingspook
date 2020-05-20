@@ -1,7 +1,8 @@
 ---
 name: Winged Man Cut-out
 path: "/assets/img/art/winged-human.jpg"
-flag: short
-date: 2020-05-01
-number: 50
+date: 2020-05-26
+number: 55
+previous: /pages/art/s/two-panels/
+next: 
 ---

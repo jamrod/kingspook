@@ -1,6 +1,8 @@
 ---
 name: Casual Space Shock
 path: "/assets/img/art/casual-space-shock.jpg"
-date: 2020-05-01
-number: 25
+date: 2020-04-13
+number: 12
+previous: /pages/art/l/babybomb-color/
+next: /pages/art/l/constrained/
 ---

@@ -1,7 +1,8 @@
 ---
 name: Rise Up
 path: "/assets/img/art/rise-up-drawing.jpg"
-flag: short
-date: 2020-05-01
-number: 51
+date: 2020-05-21
+number: 50
+previous: /pages/art/s/oscar-imposter-with-totem/
+next: /pages/art/s/sequential-people-kitty/
 ---

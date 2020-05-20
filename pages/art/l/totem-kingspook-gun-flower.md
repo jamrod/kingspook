@@ -1,6 +1,8 @@
 ---
 name: Kingspook Totem
 path: "/assets/img/art/totem-kingspook-gun-flower.jpg"
-date: 2020-05-01
-number: 27
+date: 2020-05-06
+number: 35
+previous: /pages/art/l/stumbling-thunder/
+next: /pages/art/l/we-hates-the-badgers/
 ---

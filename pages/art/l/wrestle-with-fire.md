@@ -1,6 +1,8 @@
 ---
 name: Wrestle With Fire
 path: "/assets/img/art/wrestle-with-fire.jpg"
-date: 2020-05-01
-number: 11
+date: 2020-05-08
+number: 37
+previous: /pages/art/l/we-hates-the-badgers/
+next: /pages/art/l/you-must-smoke-color/
 ---

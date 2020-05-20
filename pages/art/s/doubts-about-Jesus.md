@@ -1,7 +1,8 @@
 ---
 name: Doubts About Jesus
 path: "/assets/img/art/doubts-about-Jesus.jpg"
-flag: short
-date: 2020-05-01
-number: 43
+date: 2020-05-16
+number: 45
+previous: /pages/art/s/cut-a-bloody-swath-color/
+next: /pages/art/s/halo-man-color/
 ---

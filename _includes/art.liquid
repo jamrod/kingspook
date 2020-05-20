@@ -1,13 +1,26 @@
 ---
 layout: base.liquid
 ---
-<a href="{{ collections.art[num].url }}">Test</a>
-<p>{{ num }}
-    <br/>
-    {{ number }}</p>
+
 <div class="flex-container-column">
-    <div class="art-label">
-        <h3>{{ name }}</h3>
+    <div class="page-controls continer">
+        {% if previous %}
+            <a href="{{ previous }}">
+                <img alt="arrow-left" class="arrows" src="/assets/img/arrow-left-white.png"/>
+            </a>
+        {% else %}
+            <img alt="arrow-left" class="hidden arrows" src="/assets/img/arrow-left-white.png"/>
+        {% endif %}
+        <div class="art-label">
+            <h3>{{ name }}</h3>
+        </div>
+        {% if next %}
+            <a href="{{ next }}">
+                <img alt="arrow-right" class="arrows" src="/assets/img/arrow-right-white.png"/>
+            </a>
+        {% else %}
+            <img alt="arrow-right" class="hidden arrows" src="/assets/img/arrow-right-white.png"/>
+        {% endif %}
     </div>
     <div class="flex-container-column centered art"><img class="img-fluid" src="{{ path }}" alt="{{ name }}"/></div>
 </div>

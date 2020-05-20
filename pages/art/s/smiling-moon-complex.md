@@ -1,7 +1,8 @@
 ---
 name: Smiling Moon
 path: "/assets/img/art/smiling-moon-complex.jpg"
-flag: short
-date: 2020-05-01
-number: 56
+date: 2020-05-24
+number: 53
+previous: /pages/art/s/sequential-people-panel/
+next: /pages/art/s/two-panels/
 ---

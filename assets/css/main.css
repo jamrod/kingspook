@@ -114,8 +114,23 @@ p {
 }
 
 .art-label {
-  width: 100%;
   text-align: center;
   align-items: flex-start;
   padding-top: 15px;
+}
+
+.page-controls {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrows {
+  height: 35px;
+}
+
+.hidden {
+  visibility: hidden;
 }

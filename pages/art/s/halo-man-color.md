@@ -1,7 +1,8 @@
 ---
 name: Halo Head
 path: "/assets/img/art/halo-man-color.jpg"
-flag: short
-date: 2020-05-01
-number: 54
+date: 2020-05-17
+number: 46
+previous: /pages/art/s/doubts-about-Jesus/
+next: /pages/art/s/item-12-drawing/
 ---

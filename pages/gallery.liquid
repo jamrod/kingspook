@@ -9,7 +9,8 @@ url: /pages/gallery
 <h3>Gallery</h3>
 
 <div class="flex-container-row centered">
-    {% for pic in collections.long %}
+    {% assign long = collections.long | sort %}
+    {% for pic in long %}
         <a href="{{ pic.url }}">
             <div class="gallery-pic-container">
                 <div class="flex-container-column centered">

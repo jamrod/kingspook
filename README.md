@@ -29,9 +29,9 @@ Bootstrap had an issue with chrome on mobile and the images not resizing correct
 
 - To Fix: I needed to wrap everything in my header in a div with class="container" and have the class on the images to "img-fluid"
 
-I used Python to create md files for the art work and to update them when I made changes. Liquid and 11ty can use the .md files to create pages on the final site, the files just have data as tags wrapped in "---" marks. I initially created a Python script to loop through the folder containing the art files and create .md files for each one so it could have its own page.
+I used Python to create md files for the art work and to update them when I made changes. Liquid and 11ty can use the .md files to create pages on the final site, the files just have data as tags wrapped in "---" marks. I initially created a Python script to loop through the folder containing the art files and create .md files for each one so each picture would have its own page.
 
-In order to paginate all the images I created a linked-list with all the .md files by setting 'previous' and 'next' values. I had tried to order them with numbers or setting them all to the same dates but it hadn't worked out because liquid and Python were not sorting the arrays the same. So I linked them all together by incrementing the date by a day with each file and removing the page number. Liquid sorts by date so the order they appear in the gallery will match the order if you click through one at a time.
+In order to paginate all the images I created a linked-list with all the .md files by setting 'previous' and 'next' values. I had tried to order them with numbers or setting them all to the same dates but it hadn't worked out because liquid and Python were not sorting the arrays the same. I linked them all together by incrementing the date by a day with each file and removing the page number. Liquid sorts by date so the order they appear in the gallery will match the order if you click through one at a time.
 Here's the script to do it:
 
 ```
@@ -61,9 +61,7 @@ def process_file(filename, prev, dates):
     with open(filename, 'r') as read_file:
         for line in read_file:
             text = line
-            if 'number' in line:
-                text = ''
-            elif 'date' in line:
+            if 'date' in line:
                 text = date_string
             elif '---' in line:
                 count += 1

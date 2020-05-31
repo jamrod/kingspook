@@ -134,3 +134,11 @@ p {
 .hidden {
   visibility: hidden;
 }
+
+@media (max-width: 595px) {
+  body {
+    background-image: url("/assets/img/kingSpook-bw0-spaced.png");
+    background-position: top center;
+    background-repeat: repeat-y;
+  }
+}

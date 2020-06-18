@@ -60,6 +60,7 @@ footer {
 p {
   font-family: "McLaren", cursive;
   letter-spacing: 1px;
+  padding: 1%;
 }
 
 .flex-container-row {
@@ -135,10 +136,34 @@ p {
   visibility: hidden;
 }
 
+#ks-thumb {
+  width: 150px;
+  height: auto;
+  float: left;
+  padding: 1%;
+}
+
+.clear {
+  clear: both;
+}
+
+#zac-pic {
+  max-width: 400px;
+  float: right;
+  padding: 1%;
+}
+
 @media (max-width: 595px) {
   body {
     background-image: url("/assets/img/kingSpook-bw0-spaced.png");
     background-position: top center;
     background-repeat: repeat-y;
+  }
+
+  #zac-pic {
+    max-width: 300px;
+    float: none;
+    display: block;
+    margin: 0 auto;
   }
 }

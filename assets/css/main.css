@@ -154,6 +154,11 @@ p {
   padding: 1%;
 }
 
+.icon {
+  height: 20px;
+  margin-bottom: 4px;
+}
+
 @media (max-width: 595px) {
   body {
     background-image: url("/assets/img/kingSpook-bw0-spaced.png");

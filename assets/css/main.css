@@ -2,7 +2,7 @@ body {
   background-color: #aaaaaa;
   background-image: url("/assets/img/kingSpook-bw0-spaced.png"),
     url("/assets/img/kingSpook-bw0-spaced.png");
-  background-position: left top, right top;
+  background-position: left top 127px, right top 127px;
   background-repeat: repeat-y, repeat-y;
   font-family: "Special Elite", cursive;
   color: white;
@@ -40,8 +40,8 @@ nav a {
 }
 
 main {
-  padding: 10px;
-  margin-bottom: 34px;
+  padding: 10px 10px 20px;
+  margin-bottom: 32px;
   background-color: rgba(2, 2, 2, 0.9);
 }
 
@@ -157,7 +157,7 @@ p {
 @media (max-width: 595px) {
   body {
     background-image: url("/assets/img/kingSpook-bw0-spaced.png");
-    background-position: top center;
+    background-position: top 100px center;
     background-repeat: repeat-y;
   }
 

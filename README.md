@@ -7,7 +7,7 @@ Built with 11ty, Liquid and Bootstrap
 ### Eleventy commands
 
 'npm run build' or 'eleventy'
-'npm serve' or 'eleventy --serve'
+'npm run serve' or 'eleventy --serve'
 runs on port 8080
 'npm run deploy' to upload
 
